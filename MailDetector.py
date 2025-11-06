@@ -19,7 +19,6 @@ class MailDetector:
 
     def main(self):
         while self._state != State.Error:
-            # State-based dispatch for clarity
             if self._state == State.AwaitPackage:
                 self._handle_await_package()
             elif self._state == State.SendingNotification:
