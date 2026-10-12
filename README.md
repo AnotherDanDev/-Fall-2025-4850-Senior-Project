@@ -1,6 +1,6 @@
 # Smart Mailbox Package Detector
 
-![Smart mailbox package detector](mailbox.jpg)
+![Smart mailbox package detector](PackageBox.png)
 
 A Raspberry Pi package detector built for the CS 4850 Senior Project (Fall 2025). An infrared beam inside the box detects when a package is sitting in it. When one arrives, the Pi raises a servo-driven flag and sends a Telegram message. When the package is removed, the flag lowers again.
 
